@@ -1,0 +1,2 @@
+# Simple-IDS-tool
+A lightweight and simple Intrusion Detection System (IDS) built with Python. This tool monitors network traffic for suspicious activity based on predefined rules and patterns. It's designed to be easily configurable and provides basic logging and alerting for security enthusiasts and educational purposes.
