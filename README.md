@@ -1,2 +1,46 @@
-# Simple-IDS-tool
-A lightweight and simple Intrusion Detection System (IDS) built with Python. This tool monitors network traffic for suspicious activity based on predefined rules and patterns. It's designed to be easily configurable and provides basic logging and alerting for security enthusiasts and educational purposes.
+# Simple Python IDS
+
+هذا المشروع عبارة عن نظام كشف تسلل (IDS) بسيط مكتوب بلغة بايثون. يستخدم الأداة مكتبة Scapy لتحليل حزم الشبكة والكشف عن الأنشطة المشبوهة مثل محاولات فحص المنافذ أو هجمات ICMP flood.
+
+## المتطلبات
+
+- Python 3.x
+- Scapy
+
+## التثبيت
+
+1. استنسخ المستودع:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/simple-python-ids.git
+   cd simple-python-ids
+   ```
+
+2. قم بتثبيت التبعيات:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## الاستخدام
+
+لتشغيل IDS، قم بتنفيذ الأمر التالي:
+
+```bash
+python ids.py
+```
+
+ستبدأ الأداة في مراقبة حركة مرور الشبكة وعرض التنبيهات في الوقت الفعلي.
+
+## الميزات
+
+- **تحليل الحزم:** يستخدم Scapy لالتقاط وتحليل حزم الشبكة.
+- **الكشف عن ICMP Flood:** يكتشف محاولات هجمات ICMP flood.
+- **الكشف عن فحص المنافذ:** يكتشف محاولات فحص المنافذ على المنافذ الشائعة.
+
+## المساهمة
+
+نرحب بالمساهمات! إذا كان لديك أي اقتراحات أو تحسينات، فلا تتردد في فتح مشكلة أو إرسال طلب سحب.
+
+## الترخيص
+
+هذا المشروع مرخص بموجب ترخيص MIT. انظر ملف `LICENSE` لمزيد من التفاصيل.
+
