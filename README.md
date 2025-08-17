@@ -12,8 +12,8 @@ Prerequisites
  * Scapy
 Installation
  * Clone the repository: git clone https://github.com/kush-king249/Simple-IDS-tool.git
- * Navigate to the project directory: cd Simple-Python-IDS
+ * Navigate to the project directory: cd Simple-IDS-tool
  * Install dependencies: pip install -r requirements.txt
 Usage
- * Run the script from the terminal: python ids.py
+ * Run the script from the terminal: ids.py
 
