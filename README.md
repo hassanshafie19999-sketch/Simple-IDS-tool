@@ -1,4 +1,4 @@
-Project: Simple Python IDS.
+project: Simple Python IDS.
 
  * A lightweight and simple Intrusion Detection System (IDS) built with Python.
  * Monitors network traffic for suspicious activity based on predefined rules and patterns.
